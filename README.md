@@ -53,7 +53,20 @@ The application is hosted online for easy access. **https://sentiment-analyzer-a
   - **Machine Learning**: Scikit-learn (Random Forest Classifier, TF-IDF Vectorization).
 
 ---
+## **Application Screenshots**
+### **1. Sentiment Analysis Page**
+#### **Positive Sentiments**
+![App Overview](https://github.com/Ajinkya-19/Sentiment-Analyzer-and-Dashboarding/blob/main/Screenshot%20(124).png)
+#### **Negative sentiments**
+![App Overview](https://github.com/Ajinkya-19/Sentiment-Analyzer-and-Dashboarding/blob/main/Screenshot%20(125).png)
 
+### **2. Dashboard View**
+![App Overview](https://github.com/Ajinkya-19/Sentiment-Analyzer-and-Dashboarding/blob/main/Key%20matrics1.png)
+![App Overview](https://github.com/Ajinkya-19/Sentiment-Analyzer-and-Dashboarding/blob/main/Key%20matrics2.png)
+![App Overview](https://github.com/Ajinkya-19/Sentiment-Analyzer-and-Dashboarding/blob/main/Key%20matrics3.png)
+![App Overview](https://github.com/Ajinkya-19/Sentiment-Analyzer-and-Dashboarding/blob/main/key%20matrics4.png)
+
+---------
 ## **Installation and Setup**
 
 ### **1. Prerequisites**
@@ -124,18 +137,7 @@ The dataset used is `alexa.csv`, containing customer reviews for Amazon Alexa pr
 
 ---
 
-## **Application Screenshots**
-### **1. Sentiment Analysis Page**
-#### **Positive Sentiments**
-![App Overview](https://github.com/Ajinkya-19/Sentiment-Analyzer-and-Dashboarding/blob/main/Screenshot%20(124).png)
-#### **Negative sentiments**
-![App Overview](https://github.com/Ajinkya-19/Sentiment-Analyzer-and-Dashboarding/blob/main/Screenshot%20(125).png)
 
-### **2. Dashboard View**
-![App Overview](https://github.com/Ajinkya-19/Sentiment-Analyzer-and-Dashboarding/blob/main/Key%20matrics1.png)
-![App Overview](https://github.com/Ajinkya-19/Sentiment-Analyzer-and-Dashboarding/blob/main/Key%20matrics2.png)
-![App Overview](https://github.com/Ajinkya-19/Sentiment-Analyzer-and-Dashboarding/blob/main/Key%20matrics3.png)
-![App Overview](https://github.com/Ajinkya-19/Sentiment-Analyzer-and-Dashboarding/blob/main/key%20matrics4.png)
 ---
 
 ## **Contributing**
