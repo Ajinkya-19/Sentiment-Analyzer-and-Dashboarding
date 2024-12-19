@@ -115,7 +115,7 @@ The dataset used is `alexa.csv`, containing customer reviews for Amazon Alexa pr
    - Stem words using Porter Stemmer.
 
 2. **Model Training**:
-   - Train a Logistic Regression model using TF-IDF-transformed text.
+   - Train a Random Forest Classifier model using TF-IDF-transformed text.
    - Save the vectorizer and trained model as `.pkl` files.
 
 3. **Application**:
