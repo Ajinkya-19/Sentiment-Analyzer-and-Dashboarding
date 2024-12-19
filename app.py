@@ -3,6 +3,7 @@ import pickle
 import string
 import nltk
 import os
+from nltk.tokenize import word_tokenize
 from nltk.corpus import stopwords
 from nltk.stem.porter import PorterStemmer
 import pandas as pd
@@ -10,6 +11,10 @@ from helper import load_data, preprocess_data, calculate_metrics, filter_data
 from helper import sentiment_distribution, rating_distribution, generate_wordcloud, plot_trends, feedback_rating_heatmap, sentiment_by_variation, sentiment_time_series, review_length_analysis, word_count_histogram, sentiment_by_weekday
 
 import matplotlib.pyplot as plt
+
+import nltk
+nltk.download('punkt')  # Ensure punkt is downloaded
+nltk.download('punkt_tab')  # Explicitly download punkt_tab
 
 # Specify the path for nltk_data
 nltk_data_dir = os.path.join(os.getcwd(), 'nltk_data')
@@ -30,6 +35,11 @@ try:
     nltk.data.find('tokenizers/punkt')
 except LookupError:
     nltk.download('punkt', download_dir=nltk_data_path)
+    
+try:
+    nltk.data.find('tokenizers/punkt_tab')
+except LookupError:
+    nltk.download('punkt_tab', download_dir=nltk_data_path)
 
 # Sentiment Analysis Preprocessing
 ps = PorterStemmer()
