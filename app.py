@@ -15,6 +15,7 @@ import matplotlib.pyplot as plt
 import nltk
 nltk.download('punkt')  # Ensure punkt is downloaded
 nltk.download('punkt_tab')  # Explicitly download punkt_tab
+nltk.download('stopwords') 
 
 # Specify the path for nltk_data
 nltk_data_dir = os.path.join(os.getcwd(), 'nltk_data')
@@ -36,10 +37,16 @@ try:
 except LookupError:
     nltk.download('punkt', download_dir=nltk_data_path)
     
+
 try:
     nltk.data.find('tokenizers/punkt_tab')
 except LookupError:
     nltk.download('punkt_tab', download_dir=nltk_data_path)
+
+try:
+    nltk.data.find('corpora/stopwords')
+except LookupError:
+    nltk.download('stopwords', download_dir=nltk_data_path)
 
 # Sentiment Analysis Preprocessing
 ps = PorterStemmer()
